@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.header.one {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif; 
+    justify-content: space-around;
+    
+}
+
+ul, 
+a { 
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    gap: 15px;
+    align-items: center;
+}
+
+h1 {
+ font-size: 24px;
+}
+
+.header-link {
+    font-size: 18px
+}
+
+.header.two {
+    display: flex;
+    background-color: #1F2937; 
+    color: #F9FAF8;
+    font-family: sans-serif;
+    gap: 98px;
+    justify-content: center;
+    padding: 55px 0px 20px 0px;
+}
+
+.container.one {
+    max-width: 500px;
+}
+
+.button.one {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    width: 75px;
+    height: 30px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px #3882F6 solid;
+}
+
+.fartheader {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 36px;
+    margin: 50px auto;
+}
+
+.container.three {
+    display: flex;
+    gap: 50px;
+    /* max-width: 150px; */
+    margin: 20px auto;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.text {
+    max-width: 150px;
+}
+
+.container.four {
+    background-color: #E5E7EB;
+    font-size: 36px; 
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.container.four .quote.two {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container.five {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    margin: 100px 300px;
+    padding: 30px;
+    color: white;
+    border-radius: 5px;
+    gap: 30px;
+    min-width: 300px;
+}
+
+.button.two {
+    background-color: #3882F6;
+    color: white; 
+    border-radius: 10px;
+    border: none;
+    border: 2px white solid;
+    width: 60px;
+    height: 30px;
+}
+
+.finalheader {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
